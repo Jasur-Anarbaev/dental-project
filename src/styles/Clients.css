@@ -1,0 +1,338 @@
+/*  The cost of treatment from price end  */
+
+/* our__clients start */
+.our__clients {
+
+  background: url("../assets/img/dental.png") center no-repeat;
+  background-size: cover;
+}
+
+.our__inner {
+  padding: 90px;
+}
+
+.our__blog {
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.90);
+  height: 509px;
+}
+
+.blog__title {
+  padding-top: 55px;
+  color: #302D2D;
+  text-align: center;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.reviews__items {
+  display: flex;
+  gap: 43px;
+
+}
+
+.box {
+  margin-top: 35px;
+  display: flex;
+  gap: 177px;
+}
+
+.icons {
+  display: flex;
+  gap: 19px;
+}
+
+.blog__reviews {
+  padding-top: 69px;
+  display: flex;
+  /* justify-content: space-evenly; */
+  gap: 30px;
+}
+
+.sleder_img {
+  position: relative;
+  right: 30px;
+}
+
+.sleder_img2 {
+  position: relative;
+  left: 110px;
+}
+
+
+
+.swiper-button-next {
+  padding: 5px 13px;
+  background-color: #C5C1FE;
+  border-radius: 50%;
+  color: white;
+}
+
+.swiper-button-next:after {
+  color: white;
+  font-size: 26px !important;
+}
+
+.swiper-button-prev {
+  padding: 5px 13px;
+  background-color: #C5C1FE;
+  border-radius: 50%;
+  color: white;
+}
+
+.swiper-button-prev:after {
+  color: white;
+  font-size: 26px !important;
+}
+
+
+
+
+
+
+.review__content {
+  max-width: 494px;
+  color: #6B6868;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175.2%;
+}
+
+.client__name {
+  color: #2378C9;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 175.2%;
+
+}
+
+.icon_style {
+  padding: 8px 8px;
+  background-color: #E7E7E7;
+  border-radius: 10px;
+}
+
+
+
+@media(max-width:1080px) {
+  .blog__title {
+    font-size: 50px;
+  }
+
+  .review__content {
+    font-size: 17px;
+  }
+}
+
+@media(max-width:1035px) {
+  .blog__title {
+    font-size: 48px;
+  }
+
+  .box {
+    display: flex;
+    gap: 130px;
+  }
+}
+
+@media(max-width:999px) {
+  .blog__title {
+    font-size: 45px;
+  }
+
+  .client__name {
+
+    font-size: 25px;
+  }
+
+  .box {
+    gap: 100px;
+  }
+
+  .review__content {
+    max-width: 400px;
+    font-size: 16px;
+  }
+
+
+}
+
+
+@media(max-width:940px) {
+  .box {
+    gap: 80px;
+  }
+
+  .client__name {
+    font-size: 22px;
+  }
+
+  .review__content {
+    max-width: 360px;
+    font-size: 15px;
+  }
+}
+
+@media(max-width:900px) {
+  .blog__title {
+    font-size: 39px;
+  }
+
+  .review__content {
+    max-width: 305px;
+    font-size: 14px;
+  }
+
+  .box {
+    gap: 55px;
+  }
+}
+
+@media(max-width:865px) {
+  .blog__title {
+    font-size: 35px;
+  }
+}
+
+@media(max-width:840px) {
+
+  .our__blog {
+    height: 530px;
+  }
+
+  .blog__reviews {
+    padding-top: 20px;
+  }
+
+  .blog__title {
+    padding-top: 25px;
+  }
+
+  .blog__title {
+    font-size: 30px;
+  }
+
+  .reviews__items {
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 12px;
+  }
+
+  .review_img {
+    text-align: center;
+  }
+
+  .review_img img {
+    width: 75%;
+  }
+
+  .box {
+    margin-top: 15px;
+  }
+
+  .our__inner {
+    padding: 50px;
+  }
+
+
+}
+
+@media(max-width:540px) {
+  .our__inner {
+    padding: 20px 0px;
+  }
+
+  .blog__title {
+    font-size: 28px;
+  }
+
+  .review_img img {
+    width: 60%;
+  }
+
+  .review__content {
+    max-width: 284px;
+    font-size: 13px;
+  }
+
+
+}
+
+@media(max-width:492px) {
+  .review_img img {
+    width: 50%;
+  }
+
+  .review__content {
+    max-width: 280px;
+    font-size: 13px;
+  }
+}
+
+@media(max-width:442px) {
+
+  .our__inner {
+    padding: 20px 0px;
+  }
+}
+
+@media(max-width:390px) {
+  .blog__title {
+    font-size: 30px;
+    max-width: 273px;
+    margin: 0 auto;
+  }
+
+  .review_img img {
+    width: 45%;
+  }
+
+  /* .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
+    left: var(--swiper-navigation-sides-offset, 0px);
+    right: auto;
+  }
+
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset, 0px);
+    left: auto;
+  } */
+
+  .review__content {
+    max-width: 239px;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .client__name {
+    font-size: 20px;
+  }
+
+  .box {
+    gap: 40px;
+  }
+}
+
+@media(max-width:356px) {
+  .blog__title {
+    font-size: 25px;
+  }
+
+  .review__content {
+    max-width: 200px;
+    font-size: 14px;
+  }
+
+  .client__name {
+    font-size: 18px;
+  }
+}

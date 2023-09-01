@@ -1,0 +1,22 @@
+.catalog__bag {
+    background: #DFEEFC;
+}
+
+.catalog__inner {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+a {
+    color: #302D2D;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}

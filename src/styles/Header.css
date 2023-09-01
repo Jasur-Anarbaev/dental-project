@@ -1,0 +1,261 @@
+/* Header start  */
+.header__address {
+    width: 100%;
+    height: 50px;
+    background: #2378C9;
+}
+
+.header__items {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header__location {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+
+.header__street {
+    color: #FFF;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.header__info {
+    display: flex;
+    gap: 50px;
+}
+
+
+.header__call {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+
+.header__call_number {
+    color: #FFF;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__email {
+    color: #FFF;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__icons {
+    display: flex;
+    gap: 31px;
+    align-items: center;
+}
+
+/* Header ends   */
+
+/* Header  Info start */
+.header__inner {
+    margin: 43px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 39px;
+    align-items: center;
+}
+
+.nav__link {
+    color: #302D2D;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: #2378C9;
+    border-bottom: 3px solid #2378C9;
+}
+
+button {
+    border: 0;
+    padding: 17px 29px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 26px;
+    background: #F86D6D;
+}
+
+/* Header Info  ends  */
+
+/* Media start */
+@media(max-width:1120px) {
+    nav {
+        display: flex;
+        gap: 27px;
+    }
+
+}
+
+@media (max-width:1054px) {
+    .header__icons {
+        gap: 28px;
+    }
+
+    .header__info {
+        gap: 28px;
+    }
+
+    nav {
+        gap: 25px;
+    }
+}
+
+@media(max-width:1050px) {
+    .header__info {
+
+        gap: 28px;
+    }
+
+    .header__icons {
+
+        gap: 28px;
+    }
+
+    nav {
+
+        gap: 20px;
+    }
+
+    button {
+        padding: 15px 20px;
+    }
+}
+
+@media(max-width:1040px) {
+
+
+    .clinic__service {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+}
+
+
+
+@media (max-width:960px) {
+    .header__info {
+        gap: 25px;
+    }
+
+    .header__icons {
+        gap: 25px;
+    }
+
+    nav {
+        gap: 13px;
+    }
+}
+
+@media (max-width:920px) {
+    .header__logo {
+        width: 145px;
+    }
+
+    nav {
+        gap: 10px;
+    }
+
+    button {
+        padding: 12px 15px;
+    }
+}
+
+@media (max-width:910px) {
+
+    .header__info {
+        gap: 20px;
+    }
+
+    .header__icons {
+        gap: 20px;
+    }
+
+    nav {
+        gap: 10px;
+    }
+
+    button {
+        padding: 12px 12px;
+    }
+}
+
+@media (max-width:900px) {
+
+    .header__info {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+
+
+@media (max-width:360px) {
+
+
+    button {
+        padding: 8px 14px;
+        font-size: 10px;
+    }
+
+    @media(max-width:350px) {
+        .header__street {
+            font-size: 10px;
+        }
+
+        .header__logo img {
+            width: 95px;
+        }
+
+        button {
+            padding: 8px 14px;
+            font-size: 10px;
+        }
+    }
+}
+
+
+
+
+
+
+/* Our__specialists end  */
