@@ -67,7 +67,7 @@ const Header = () => {
         <div className="container">
           <div className="header__inner">
             <div className="header__logo">
-              <img src={Logo} alt="" />
+            <Link to="/"><img src={Logo} alt="" /></Link>
             </div>
             <nav>
               <div className={active ? "header__info active" : "header__info"}>

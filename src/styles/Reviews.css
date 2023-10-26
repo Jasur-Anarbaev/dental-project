@@ -71,13 +71,11 @@ p {
 .slider__left {
     display: flex;
     gap: 25px;
-    align-items: center;
 }
 
 .slider__right {
     display: flex;
     gap: 25px;
-    align-items: center;
 }
 
 .slider__text {
@@ -297,6 +295,7 @@ textarea {
     }
 
 }
+
 @media(max-width:875px) {
     .comment__items {
         flex-direction: column;
@@ -315,6 +314,7 @@ textarea {
     }
 
 }
+
 @media(max-width:645px) {
     a {
         font-size: 15px;
@@ -328,6 +328,7 @@ textarea {
         font-size: 39px;
     }
 }
+
 @media(max-width:600px) {
     h1 {
         font-size: 43px;
@@ -375,6 +376,7 @@ textarea {
 
 
 }
+
 @media(max-width:555px) {
     a {
         font-size: 14px;

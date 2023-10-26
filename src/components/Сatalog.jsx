@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Catalog.css";
+import { Link } from "react-router-dom";
 
 const Сatalog = ({ home, adress }) => {
   return (
@@ -25,8 +26,7 @@ const Сatalog = ({ home, adress }) => {
             </svg>
           </div>
           <div className="text">
-            <a href="http://localhost:3000/">{home}</a> /
-            <a href=""> {adress}</a>
+            <Link to="/">{home}</Link> /<Link to=""> {adress}</Link>
           </div>
         </div>
       </div>
