@@ -12,12 +12,105 @@
     align-items: center;
 }
 
+.header__all.active .header__location {
+    display: none;
+}
+
+
 
 .header__location {
     display: flex;
     gap: 13px;
     align-items: center;
 }
+
+.header_burger {
+    display: none;
+
+}
+
+/* .header__info.active {
+    display: inline;
+} */
+
+/* .header__info.active .header__call {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+} */
+.header__inner.active {
+    display: none;
+}
+
+
+
+.burger__logo_text {
+    color: #FFF;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.header__all.active {
+    width: 100%;
+    /* height: 100vh; */
+    background: #0E6EAA;
+    position: fixed;
+    z-index: 44;
+    top: 0;
+}
+
+.header_close {
+    display: none;
+}
+
+
+.header__all.active .header__call {
+    margin-bottom: 25px;
+    justify-content: center;
+}
+
+.header__all.active .header__icons {
+    justify-content: center;
+}
+
+.header__all.active .nav__link {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__all.active .header__inner .header__logo,
+.header__all.active .header__inner button {
+    display: none;
+}
+
+.header__all.active .header__inner {
+    justify-content: center;
+}
+
+.header__all.active .header__inner nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__all .header__inner nav .header__info {
+    display: none;
+}
+
+.header__all.active .header__inner nav .header__info {
+    display: block;
+    margin-bottom: 30px;
+}
+
 
 .header__street {
     color: #FFF;
@@ -75,7 +168,7 @@
     align-items: center;
 }
 
-nav {
+.header__all .header__inner nav {
     display: flex;
     gap: 39px;
     align-items: center;
@@ -142,7 +235,6 @@ button {
     }
 
     .header__icons {
-
         gap: 28px;
     }
 
@@ -168,8 +260,12 @@ button {
 }
 
 
-
 @media (max-width:960px) {
+    .header__location.active {
+        display: none;
+
+    }
+
     .header__info {
         gap: 25px;
     }
@@ -222,8 +318,14 @@ button {
         display: none;
     }
 
-    nav {
+    .header__all .header__inner nav {
         display: none;
+    }
+
+
+    .header_burger {
+        display: flex;
+        justify-content: flex-end;
     }
 }
 

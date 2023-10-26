@@ -1,7 +1,5 @@
 .footer {
     background: #10406F;
-    /* width: 1600px; */
-    /* height: 575px; */
     margin-top: -6px;
 }
 
@@ -173,5 +171,17 @@
 
     .footer__icons {
         margin-top: 50px;
+        justify-content: center;
+    }
+
+    .footer__location {
+        padding-left: 10px;
+    }
+}
+
+@media(max-width:360px) {
+    .footer__icons {
+        display: flex;
+        justify-content: center;
     }
 }

@@ -149,7 +149,7 @@
 .dental__text {
   color: #302D2D;
   font-family: 'Source Sans 3', sans-serif;
-  font-size: 20.251px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -229,7 +229,7 @@ h2 {
 }
 
 .our__subtitle {
-
+  max-width: 470px;
   color: #302D2D;
   margin: 0 auto;
   text-align: center;
@@ -271,13 +271,13 @@ h2 {
 }
 
 .Our__specialists__blog p {
-  margin-left: 14px;
+  margin-left: 15px;
   color: #FFF;
   font-family: 'Source Sans 3', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  /* line-height: normal; */
 }
 
 /*  The cost of treatment from price start  */
@@ -373,14 +373,6 @@ h5 {
   left: -53px;
   right: 0;
 }
-
-
-
-
-
-
-
-
 
 
 /* Media start */
@@ -720,7 +712,7 @@ h5 {
 
   .our__subtitle {
 
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .Our__specialists__blog h3 {
@@ -728,6 +720,63 @@ h5 {
     font-size: 15px;
   }
 }
+
+
+
+
+@media(max-width:574px) {
+
+  h2 {
+    font-size: 39px;
+  }
+
+  .our__subtitle {
+    font-size: 14px;
+  }
+
+  .Our__specialists {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width:556px) {
+  h2 {
+    font-size: 38px;
+  }
+
+  .Our__specialists__blog h3 {
+    margin: 21px 0 7px 8px;
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width:537px) {
+  h2 {
+    font-size: 35px;
+  }
+
+  .Our__specialists__blog h3 {
+
+    font-size: 13px;
+  }
+
+  .dental__items {
+    gap: 45px;
+  }
+
+  .dental__text {
+    font-size: 18px;
+  }
+
+
+
+
+  .dental__services_info {
+    gap: 19px;
+  }
+}
+
 
 
 @media (max-width:520px) {
@@ -752,33 +801,6 @@ h5 {
 }
 
 
-@media(max-width:574px) {
-
-  h2 {
-    font-size: 39px;
-  }
-
-  .our__subtitle {
-    font-size: 13px;
-  }
-
-  .Our__specialists {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
-@media (max-width:556px) {
-  h2 {
-    font-size: 38px;
-  }
-
-  .Our__specialists__blog h3 {
-    margin: 21px 0 7px 8px;
-    font-size: 12px;
-  }
-}
-
-
 @media (max-width:500px) {
   .main_btn {
     position: relative;
@@ -791,23 +813,6 @@ h5 {
     font-size: 38px;
   }
 
-}
-
-@media (max-width:537px) {
-  h2 {
-    font-size: 35px;
-  }
-
-  .Our__specialists__blog h3 {
-
-    font-size: 13px;
-  }
-}
-
-@media (max-width:537px) {
-  h2 {
-    font-size: 32px;
-  }
 }
 
 @media (max-width:485px) {
@@ -844,14 +849,18 @@ h5 {
 
   .our__subtitle {
     max-width: 340px;
-    font-size: 14px;
+    font-size: 13px;
   }
 
   h2 {
     font-size: 30px;
   }
-}
 
+
+  .main__content {
+    padding-left: 25px;
+  }
+}
 
 
 @media (max-width:480px) {
@@ -866,13 +875,6 @@ h5 {
     padding: 20px 47px;
   }
 
-  .dental__text {
-    font-size: 18px;
-  }
-
-  .dental__text {
-    font-size: 16px;
-  }
 
   h2 {
     font-size: 33px;
@@ -916,11 +918,11 @@ h5 {
 
   .our__subtitle {
     max-width: 320px;
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .dental__text {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   h4 {
@@ -938,7 +940,7 @@ h5 {
 
 @media (max-width:424px) {
   .dental__text {
-    font-size: 16px;
+    font-size: 17px;
   }
 }
 
@@ -959,7 +961,6 @@ h5 {
   }
 
   .dental__items {
-
     gap: 28px;
 
   }
@@ -976,11 +977,6 @@ h5 {
   }
 }
 
-/* @media (max-width:400px) {
-  .Our__specialists {
-    grid-template-columns: repeat(1, 1fr);
-  }
-} */
 
 @media (max-width:390px) {
   .header__logo img {
@@ -1013,9 +1009,6 @@ h5 {
     font-size: 14px;
   }
 
-  .dental__text {
-    font-size: 16px;
-  }
 
 
   .header__logo img {
@@ -1027,6 +1020,11 @@ h5 {
   }
 }
 
+@media (max-width:375px) {
+  .main__title {
+    padding-right: 70px;
+  }
+}
 
 @media (max-width:360px) {
   .header__street {
@@ -1065,7 +1063,7 @@ h5 {
   }
 
   .dental__text {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .main_btn {
@@ -1080,9 +1078,6 @@ h5 {
     font-size: 13px;
   }
 
-  .dental__text {
-    font-size: 13px;
-  }
 
   h2 {
     font-size: 31px;
@@ -1117,7 +1112,7 @@ h5 {
 
   .our__subtitle {
     max-width: 305px;
-    font-size: 15px;
+    font-size: 12px;
   }
 
 
@@ -1147,9 +1142,9 @@ h5 {
     font-size: 28px;
   }
 
-  .dental__text {
-    font-size: 12px;
-  }
+  /* .dental__text {
+    font-size: 13px;
+  } */
 
   h2 {
     font-size: 29px;
@@ -1157,7 +1152,7 @@ h5 {
 
   .our__subtitle {
 
-    font-size: 13px;
+    font-size: 12px;
   }
 
 
@@ -1176,8 +1171,13 @@ h5 {
     font-size: 12px;
   }
 
+  .dental__services_info {
+    gap: 13px;
+  }
 
-
+  .reception__box {
+    padding: 30px 15px;
+  }
 }
 
 

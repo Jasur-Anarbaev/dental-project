@@ -18,7 +18,7 @@
     box-shadow: 0px 0px 8px 2px rgba(108, 108, 108, 0.25);
 }
 
-.title {
+.reception__tile {
     color: #302D2D;
     text-align: center;
     font-family: 'Source Sans 3', sans-serif;
@@ -41,13 +41,14 @@ input {
     border-radius: 10px;
     border: 1px solid #E4E4E4;
     background: #FFF;
-    color: #B9B9B9;
+    color: #000;
     font-family: 'Source Sans 3', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-bottom: 20px;
+    outline: none;
 }
 
 
@@ -140,7 +141,7 @@ input {
 }
 
 @media(max-width:900px) {
-    .title {
+    .reception__tile {
         font-size: 30px;
     }
 
@@ -205,7 +206,7 @@ input {
         padding: 40px;
     }
 
-    .title {
+    .reception__tile {
         font-size: 28px;
     }
 
@@ -234,7 +235,7 @@ input {
 
 
 @media(max-width:390px) {
-    .title {
+    .reception__tile {
         font-size: 23px;
     }
 
@@ -268,7 +269,7 @@ input {
 }
 
 @media(max-width:356px) {
-    .title {
+    .reception__tile {
         font-size: 20px;
     }
 
@@ -287,7 +288,5 @@ input {
     .reception_bag {
         height: 450px;
     }
-
-
 
 }

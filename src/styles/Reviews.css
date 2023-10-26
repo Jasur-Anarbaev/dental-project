@@ -119,11 +119,12 @@ textarea {
     border: 1px solid #E4E4E4;
     background: #FFF;
     margin-bottom: 22px;
+    outline: none;
 }
 
 .reviews_btn {
     padding: 16px 54px;
-    ;
+
     color: #FFF;
     text-align: center;
     font-family: 'Source Sans 3', sans-serif;
@@ -140,7 +141,6 @@ textarea {
     gap: 150px;
     align-items: center;
     margin-bottom: 150px;
-
 }
 
 .desc {
@@ -197,19 +197,11 @@ textarea {
     margin-bottom: 27px;
 }
 
-
-
 /* Media start */
-
-
 @media(max-width:1085px) {
     .comment__items {
         gap: 140px;
     }
-
-    /* .slider__inner {
-        gap: 80px;
-    } */
 }
 
 
@@ -221,7 +213,6 @@ textarea {
     .desc {
         font-size: 30px;
     }
-
 }
 
 
@@ -306,8 +297,6 @@ textarea {
     }
 
 }
-
-
 @media(max-width:875px) {
     .comment__items {
         flex-direction: column;
@@ -326,11 +315,9 @@ textarea {
     }
 
 }
-
-
 @media(max-width:645px) {
     a {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     h1 {
@@ -341,8 +328,6 @@ textarea {
         font-size: 39px;
     }
 }
-
-
 @media(max-width:600px) {
     h1 {
         font-size: 43px;
@@ -363,7 +348,6 @@ textarea {
 
 
 }
-
 
 @media(max-width:585px) {
     a {
@@ -391,8 +375,6 @@ textarea {
 
 
 }
-
-
 @media(max-width:555px) {
     a {
         font-size: 14px;
@@ -400,6 +382,8 @@ textarea {
 }
 
 @media(max-width:530px) {
+
+
     h1 {
         font-size: 37px;
     }
@@ -418,8 +402,8 @@ textarea {
 
     }
 
-    svg {
-        width: 70%;
+    .border_element {
+        width: 7%;
     }
 
     .comment__title {
@@ -436,10 +420,18 @@ textarea {
     }
 }
 
-@media(max-width:480px) {
+@media(max-width:510px) {
     a {
-        font-size: 12px;
+        font-size: 13px;
     }
+
+    .catalog__inner {
+        gap: 12px;
+    }
+}
+
+@media(max-width:480px) {
+
 
     h1 {
         font-size: 33px;
@@ -482,7 +474,7 @@ textarea {
     }
 
     .catalog__inner {
-        padding: 10px;
+        padding: 12px;
 
     }
 
@@ -517,9 +509,19 @@ textarea {
     }
 }
 
+@media(max-width:447px) {
+    .catalog__inner {
+        padding: 11px;
+    }
+
+    a {
+        font-size: 12px;
+    }
+}
+
 @media(max-width:415px) {
     .catalog__inner {
-        gap: 5px;
+        gap: 10px;
     }
 
     a {
@@ -551,7 +553,7 @@ textarea {
 
 @media(max-width:394px) {
     a {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .img img {
@@ -577,9 +579,19 @@ textarea {
     }
 }
 
+@media(max-width:385px) {
+    .catalog__inner {
+        gap: 9px;
+    }
+
+    a {
+        font-size: 10px;
+    }
+}
+
 @media(max-width:369px) {
     .catalog__inner {
-        gap: 5px;
+        gap: 7px;
         align-items: center;
     }
 
@@ -591,7 +603,6 @@ textarea {
 
     .comment__title {
         font-size: 23px;
-
     }
 
     .input_text {
@@ -606,4 +617,18 @@ textarea {
         gap: 15px;
     }
 
+}
+
+@media(max-width:360px) {
+    .comment__title {
+        text-align: center;
+    }
+
+    textarea {
+        padding: 12px 12px;
+    }
+
+    .input_text {
+        font-size: 13px;
+    }
 }

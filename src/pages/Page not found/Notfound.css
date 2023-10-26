@@ -1,0 +1,147 @@
+.notfound__bag {
+    height: 100%;
+    background: var(--gradient-1, linear-gradient(258deg, #DFEEFC 11.01%, rgba(167, 210, 251, 0.92) 92.77%));
+}
+
+.notfound__top {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.notfound_img img {
+    width: 100%;
+}
+
+.notfound__box {
+    position: relative;
+    margin: 0 auto;
+    bottom: 166px;
+    z-index: 2;
+    margin-bottom: -166px;
+    padding: 41px;
+    width: 60%;
+    height: 80px;
+    border-radius: 50px 50px 0px 0px;
+    background: linear-gradient(258deg, rgba(223, 238, 252, 0.90) 11.01%, rgba(167, 210, 251, 0.95) 92.77%);
+    box-shadow: 0px 5px 8px 2px rgba(18, 17, 17, 0.13);
+}
+
+
+.not__title {
+    color: #302D2D;
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 32.089px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+
+
+.not__subtitle {
+    color: #302D2D;
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.not__subtitle a {
+    text-decoration-line: underline;
+}
+
+
+
+@media (max-width:900px) {
+    .not__title {
+        font-size: 30px;
+    }
+
+    .not__subtitle {
+        font-size: 23px;
+    }
+}
+
+/* @media (max-width:700px) {
+    .notfound__box {
+        width: 60%;
+    }
+} */
+
+@media (max-width:648px) {
+    .notfound__box {
+        width: 70%;
+    }
+}
+
+@media (max-width:560px) {
+    .not__title {
+        font-size: 28px;
+    }
+
+    .not__subtitle {
+        font-size: 22px;
+    }
+
+    .notfound__box {
+        width: 75%;
+    }
+
+}
+
+
+
+@media (max-width:515px) {
+    .notfound__box {
+        width: 80%;
+    }
+
+    .not__title {
+        font-size: 27px;
+    }
+}
+
+@media (max-width:388px) {
+
+    .not__title {
+        font-size: 25px;
+    }
+
+    .not__subtitle {
+        font-size: 21px;
+    }
+
+    .notfound__box {
+        width: 77%;
+    }
+
+}
+
+@media (max-width:350px) {
+    .not__title {
+        font-size: 22px;
+    }
+
+    .notfound__box {
+        position: relative;
+        margin: 0 auto;
+        bottom: 147px;
+        z-index: 2;
+        margin-bottom: -147px;
+        padding: 30px;
+        width: 62%;
+        height: 80px;
+        border-radius: 50px 50px 0px 0px;
+        background: linear-gradient(258deg, rgba(223, 238, 252, 0.90) 11.01%, rgba(167, 210, 251, 0.95) 92.77%);
+        box-shadow: 0px 5px 8px 2px rgba(18, 17, 17, 0.13);
+    }
+
+    .notfound__box {
+        width: 81%;
+    }
+}

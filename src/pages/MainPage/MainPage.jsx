@@ -71,7 +71,7 @@ export const MainPage = () => {
                 <div className="dental__items">
                   <div>
                     <div className="dental__services_info">
-                      <svg
+                      <svg className="border_element"
                         xmlns="http://www.w3.org/2000/svg"
                         width="14"
                         height="15"
@@ -103,7 +103,7 @@ export const MainPage = () => {
                           fill="#2378C9"
                         />
                       </svg>
-                      <div className="dental__text">Апноэ во сне</div>
+                      <div className="">Апноэ во сне</div>
                     </div>
                   </div>
                   <div>

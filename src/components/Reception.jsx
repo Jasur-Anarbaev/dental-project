@@ -8,7 +8,7 @@ const Reception = () => {
         <div className="container">
           <div className="reception__items">
             <div className="reception__box">
-              <div className="title">Записаться на прием</div>
+              <div className="reception__tile">Записаться на прием</div>
               <div className="input_name">
                 <input type="text" placeholder="Ваше имя" />
               </div>
