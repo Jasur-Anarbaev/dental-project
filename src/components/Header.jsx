@@ -10,7 +10,7 @@ import Logo from "../assets/svg/logo.svg";
 import Burger from "../assets/svg/header_burger.svg";
 import Close from "../assets/svg/header_close.svg";
 import Modal from "../Modal/Modal";
-
+import { Link } from "react-router-dom";
 const Header = () => {
   const [active, setActive] = useState(false);
   const [modalActive, setModalActive] = useState(false);
@@ -85,27 +85,24 @@ const Header = () => {
                   <img src={Vk} alt="" />
                 </div>
               </div>
-              <a className="nav__link" href="http://localhost:3000/">
+              <Link className="nav__link" to="/">
                 Главная
-              </a>
-              <a className="nav__link" href="http://localhost:3000/services">
+              </Link>
+              <Link className="nav__link" to="/services">
                 Услуги
-              </a>
-              <a
-                className="nav__link"
-                href="http://localhost:3000/Ourspecialists"
-              >
+              </Link>
+              <Link className="nav__link" to="/Ourspecialists">
                 Наши специалисты
-              </a>
-              <a className="nav__link" href="http://localhost:3000/reviews">
+              </Link>
+              <Link className="nav__link" to="/reviews">
                 Отзывы
-              </a>
-              <a className="nav__link" href="http://localhost:3000/block">
+              </Link>
+              <Link className="nav__link" to="/block">
                 Блог
-              </a>
-              <a className="nav__link" href="http://localhost:3000/contact">
+              </Link>
+              <Link className="nav__link" to="/contact">
                 Контакты
-              </a>
+              </Link>
             </nav>
             <button className="open-btn" onClick={() => setModalActive(true)}>
               Получить консультацию
