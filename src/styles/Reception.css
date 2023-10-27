@@ -171,7 +171,7 @@ input {
 
 
     .reception__box {
-        padding: 80px;
+        /* padding: 80px; */
         margin: 35px auto;
     }
 }
@@ -179,7 +179,8 @@ input {
 @media(max-width:540px) {
     .reception__box {
         padding: 70px;
-        max-width: 320px;
+        width: 300px;
+        /* max-width: 320px; */
     }
 }
 
@@ -268,6 +269,14 @@ input {
     }
 }
 
+@media(max-width:360px) {
+    .reception__box {
+        width: 265px;
+        padding: 40px 25px;
+    }
+}
+
+
 @media(max-width:356px) {
     .reception__tile {
         font-size: 20px;
@@ -289,4 +298,23 @@ input {
         height: 450px;
     }
 
+}
+
+@media (max-width:325px) {
+
+    .reception__box {
+        max-width: 265px;
+    }
+}
+
+@media (max-width:320px) {
+    input {
+        padding: 11px 10px;
+        width: 205px;
+    }
+
+    .reception__box {
+        padding: 25px 20px;
+        max-width: 288px;
+    }
 }

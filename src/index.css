@@ -3,13 +3,13 @@
   padding: 0;
   font-family: 'Source Sans 3', sans-serif;
   transition: all .3s;
+  /* outline: 1px solid black; */ 
 }
-
 
 /* Container */
 .container {
   max-width: 1232px;
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -1046,7 +1046,7 @@ h5 {
 
   .Our__specialists {
     gap: 25px;
-    width: 95%;
+    width: 93%;
   }
 
   p {
@@ -1163,6 +1163,12 @@ h5 {
 }
 
 @media (max-width:320px) {
+  .main_btn {
+    position: relative;
+    top: 300px;
+    left: 15px;
+  }
+
   h4 {
     font-size: 25px;
   }
@@ -1175,9 +1181,9 @@ h5 {
     gap: 13px;
   }
 
-  .reception__box {
+  /* .reception__box {
     padding: 30px 15px;
-  }
+  } */
 }
 
 
