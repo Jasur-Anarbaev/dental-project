@@ -618,10 +618,12 @@ h5 {
 
     .main_btn {
       position: relative;
-      top: 575px;
+      top: 560px;
       z-index: 2;
-      left: 122px;
+      left: 112px;
+      font-size: 20px;
     }
+
 
 
   }
@@ -792,21 +794,19 @@ h5 {
 
   .main_btn {
     position: relative;
-    top: 530px;
+    top: 483px;
     z-index: 2;
-    left: 68px;
+    left: 95px;
   }
-
-
 }
 
 
 @media (max-width:500px) {
   .main_btn {
     position: relative;
-    top: 510px;
+    top: 470px;
     z-index: 2;
-    left: 68px;
+    left: 85px;
   }
 
   h4 {
@@ -837,9 +837,9 @@ h5 {
 
   .main_btn {
     position: relative;
-    top: 470px;
+    top: 430px;
     z-index: 2;
-    left: 25px;
+    left: 30px;
   }
 
   .dental__title {
@@ -895,12 +895,19 @@ h5 {
   .services__elements {
     padding: 32px 27px;
   }
+
+  .main_btn {
+    position: relative;
+    top: 400px;
+    z-index: 2;
+    left: 27px;
+  }
 }
 
 
 @media (max-width:450px) {
   .main_btn {
-    top: 440px;
+    top: 390px;
   }
 
   .clinic__title {
@@ -946,8 +953,9 @@ h5 {
 
 @media (max-width:420px) {
   .main_btn {
-    top: 405px;
+    top: 360px;
     right: -20px;
+    left: 10px;
   }
 
   .dental__title {
@@ -993,7 +1001,8 @@ h5 {
   }
 
   .main_btn {
-    top: 370px;
+    top: 346px;
+    left: -8px;
   }
 
   .dental__items {
@@ -1026,10 +1035,12 @@ h5 {
   }
 
   .main_btn {
-    top: 340px;
+    top: 330px;
     left: 0px;
+    font-size: 15px;
   }
 }
+
 
 @media (max-width:360px) {
   .header__street {
@@ -1072,7 +1083,8 @@ h5 {
   }
 
   .main_btn {
-    padding: 20px 47px;
+    padding: 18px 35px;
+    top: 310px;
   }
 
   h4 {
@@ -1135,21 +1147,17 @@ h5 {
     max-width: 294px;
   }
 
-  .main_btn {
+  /* .main_btn {
     padding: 15px 30px;
     font-size: 15px;
     position: relative;
     top: 338px;
     left: 30px;
-  }
+  } */
 
   .dental__title {
     font-size: 28px;
   }
-
-  /* .dental__text {
-    font-size: 13px;
-  } */
 
   h2 {
     font-size: 29px;
@@ -1167,11 +1175,25 @@ h5 {
 
 }
 
-@media (max-width:320px) {
+@media (max-width:350px) {
   .main_btn {
+    top: 300px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width:340px) {
+  /* .main_btn {
     position: relative;
-    top: 320px;
-    left: 20px;
+    top: 300px;
+    left: 21px;
+  } */
+}
+
+@media (max-width:320px) {
+
+  .main_btn {
+    top: 273px;
   }
 
   h4 {
@@ -1186,9 +1208,38 @@ h5 {
     gap: 13px;
   }
 
-  /* .reception__box {
-    padding: 30px 15px;
-  } */
+  .dental__text {
+    font-size: 13px;
+  }
+
+  .dental__services_info {
+    gap: 7px;
+  }
+
+  .clinic__title {
+    font-size: 19px;
+  }
+
+  .clinic__subtitle {
+    font-size: 14px;
+  }
+
+  .Our__specialists__blog p {
+    margin-left: 0px;
+  }
+
+  .news__text {
+    font-size: 27px;
+  }
+
+  .box {
+    gap: 12px;
+  }
+
+  .review__content {
+    max-width: 150px;
+    font-size: 13px;
+  }
 }
 
 
