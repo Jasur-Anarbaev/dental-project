@@ -879,6 +879,10 @@ h5 {
   h2 {
     font-size: 33px;
   }
+
+  .Our__specialists__blog p {
+    margin-left: 0px;
+  }
 }
 
 @media (max-width:460px) {

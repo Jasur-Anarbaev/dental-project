@@ -204,7 +204,7 @@ input {
 
 @media(max-width:442px) {
     .reception__box {
-        padding: 40px;
+        padding: 30px;
     }
 
     .reception__tile {
@@ -259,20 +259,29 @@ input {
     }
 
     .reception__box {
-        padding: 42px 35px;
+        padding: 40px 25px;
     }
 }
 
 @media(max-width:372px) {
     .reception__box {
-        padding: 40px 28px;
+        padding: 40px 19px;
     }
+}
+
+@media(max-width:363px) {
+    .reception__box {
+        padding: 40px 18px;
+        width: 280px;
+    }
+
+
 }
 
 @media(max-width:360px) {
     .reception__box {
         width: 265px;
-        padding: 40px 25px;
+        padding: 40px 17px;
     }
 }
 
@@ -291,13 +300,32 @@ input {
     }
 
     .reception__box {
-        padding: 35px 20px;
+        padding: 35px 16px;
     }
 
     .reception_bag {
         height: 450px;
     }
 
+}
+
+@media(max-width:348px) {
+    .reception__tile {
+        font-size: 18px;
+    }
+
+    input {
+        font-size: 16px;
+    }
+
+    .reception__box {
+        padding: 35px 13px;
+    }
+
+    input {
+        width: 210px;
+        font-size: 15px;
+    }
 }
 
 @media (max-width:325px) {
@@ -314,7 +342,7 @@ input {
     }
 
     .reception__box {
-        padding: 25px 20px;
+        padding: 25px 12px;
         max-width: 288px;
     }
 }
