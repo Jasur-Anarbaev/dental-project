@@ -817,7 +817,7 @@ h5 {
 
 @media (max-width:485px) {
   .main__title {
-    padding-right: 85px;
+    padding-right: 40px;
   }
 
   .main__subtitle {
@@ -1031,7 +1031,7 @@ h5 {
 
 @media (max-width:375px) {
   .main__title {
-    padding-right: 70px;
+    padding-right: 20px;
   }
 
   .main_btn {
@@ -1134,7 +1134,7 @@ h5 {
 
 
   .main__title {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .main__subtitle {
